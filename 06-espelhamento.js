@@ -30,7 +30,8 @@ const carro1 = {
 //"copioando" carro1 para carro2
 //const carro2 = carro1 // não funciona
 //para criar uma cópia real de um objeto(e não uma nova referencia a ele), podemos usar a sintaxe de espelhamento
-//.Ela "desmonta" o objeto orinal e,
+//.Ela "desmonta" o objeto orinal e,em seguida, "remonta", mas em uma nova posição de memória
+const carro2 = {...carro1}
 //mudando o valor das propriedades do carro2
 carro2.modelo = 'camaro'
 carro2.marca = 'Chevrolet'
