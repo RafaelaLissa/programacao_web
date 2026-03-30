@@ -69,3 +69,4 @@ const fatorialA = x => {
   return resultado
 }
 console.log('[ARROW] O fatorial de 8 é:', fatorialA(8))
+// a melhor hipotese para usar esse function é pq ela tem uma linha de corpo só, e um 
